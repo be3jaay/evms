@@ -40,14 +40,7 @@ if(isset($_GET['id'])){
             <label for="" class="control-label">Contact #</label>
             <input type="text" class="form-control" name="contact" value="<?php echo isset($contact) ? $contact :'' ?>" readonly required>
         </div>
-        <div class="form-group">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="1" id="payment_status" name="payment_status" <?php echo isset($payment_status) && $payment_status == 1 ? "checked" : '' ?>>
-              <label class="form-check-label" for="payment_status">
-                Paid
-              </label>
-            </div>
-        </div>
+        
         <div class="form-group">
             <label for="" class="control-label">Status</label>
             <select name="status" id="" class="custom-select">

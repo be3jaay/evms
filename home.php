@@ -23,8 +23,8 @@ include 'admin/db_connect.php';
                     <div class="col-lg-8 align-self-center mb-4 page-title">
                     	<h3 class="text-white">Welcome to <strong><?php echo $_SESSION['system']['name']; ?></strong></h3>
                         <p>Nestled in the heart of Barangay Lorem is a vibrant and close-knit community that takes pride in its rich history, diverse culture, and thriving spirit. Our barangay is more than just a geographical location; it's a home where neighbors become family, and every resident plays a vital role in shaping our collective identity.</p>
-                        <button type="button"class ="btn btn-teal text-white"> Visit Our Barangay <i class="fa-solid fa-arrow-right"></i></button>
-                    <div class="col-md-12 mb-2 justify-content-center">
+                        <a href="https://www.facebook.com/lgudonmayon"><button class ="btn btn-teal text-white"> Visit Our Barangay <i class="fa-solid fa-arrow-right"></i></button></a>
+                        <div class="col-md-12 mb-2 justify-content-center">
                     </div>                        
                     </div>
                     
